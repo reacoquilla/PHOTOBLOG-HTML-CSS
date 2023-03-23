@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(230, 30, 107);
+    color: rgb(255, 255, 204);
+    background-image:  url("startransparent.gif"), url("catfront.png");
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 40px;
+}
+
+.item {
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(243, 67, 220, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.item h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #f7f9fa;
+    color: #22cae7;
+    margin-top: 0px;
+}
+.text-container{
+    font-family: font-family: 'Alex Brush', cursive;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
